@@ -246,6 +246,7 @@ public class KafkaConnectUtils {
    * @throws IOException thrown if the conversion failed.
    */
   public static ControlMessage.ConnectWriteStatus buildWriteStatuses(List<WriteStatus> writeStatuses) throws IOException {
+    // return
     return ControlMessage.ConnectWriteStatus.newBuilder()
         .setSerializedWriteStatus(
             ByteString.copyFrom(
