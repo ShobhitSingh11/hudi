@@ -76,7 +76,7 @@ public class KafkaAvroSchemaDeserializer extends KafkaAvroDeserializer {
       byte[] payload,
       Schema readerSchema)
       throws SerializationException {
-        // return
+        // returns
     return super.deserialize(includeSchemaAndVersion, topic, isKey, payload, sourceSchema);
   }
 
