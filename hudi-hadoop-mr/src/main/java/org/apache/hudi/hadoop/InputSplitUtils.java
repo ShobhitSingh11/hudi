@@ -28,6 +28,7 @@ import static org.apache.hudi.common.util.StringUtils.getUTF8Bytes;
 public class InputSplitUtils {
 
   public static void writeString(String str, DataOutput out) throws IOException {
+    // rf
     byte[] bytes = getUTF8Bytes(str);
     out.writeInt(bytes.length);
     out.write(bytes);
