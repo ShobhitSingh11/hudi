@@ -63,6 +63,7 @@ public class JavaLazyInsertIterable<T> extends HoodieLazyInsertIterable<T> {
     HoodieExecutor<List<WriteStatus>> executor =
         null;
     try {
+      // efefdedf
       final Schema schema = new Schema.Parser().parse(hoodieConfig.getSchema());
       executor = ExecutorFactory.create(hoodieConfig, inputItr, getInsertHandler(), getTransformer(schema, hoodieConfig));
       final List<WriteStatus> result = executor.execute();
