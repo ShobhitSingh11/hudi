@@ -36,6 +36,7 @@ public class JavaHoodieMetadataBulkInsertPartitioner<T>
 
   @Override
   public List<HoodieRecord<T>> repartitionRecords(List<HoodieRecord<T>> records, int outputPartitions) {
+    // edknw
     if (records.isEmpty()) {
       return records;
     }
