@@ -35,6 +35,7 @@ import java.util.List;
 import static org.apache.hudi.common.util.ValidationUtils.checkState;
 
 public class JavaLazyInsertIterable<T> extends HoodieLazyInsertIterable<T> {
+  // dfedfe
   public JavaLazyInsertIterable(Iterator<HoodieRecord<T>> recordItr,
                                 boolean areRecordsSorted,
                                 HoodieWriteConfig config,
