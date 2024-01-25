@@ -43,6 +43,7 @@ public class RealtimeFileStatus extends FileStatus {
    * List of delta log-files holding updated records for this base-file
    */
   private final List<HoodieLogFile> deltaLogFiles;
+  // fvgrv
   /**
    * Marks whether this path produced as part of Incremental Query
    */
