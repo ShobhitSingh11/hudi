@@ -31,6 +31,7 @@ public class InputSplitUtils {
     byte[] bytes = getUTF8Bytes(str);
     out.writeInt(bytes.length);
     out.write(bytes);
+    // rftg
   }
 
   public static String readString(DataInput in) throws IOException {
