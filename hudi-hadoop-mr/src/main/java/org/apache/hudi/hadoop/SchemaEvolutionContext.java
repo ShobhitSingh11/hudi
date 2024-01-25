@@ -108,6 +108,7 @@ public class SchemaEvolutionContext {
   }
 
   private HoodieTableMetaClient setUpHoodieTableMetaClient() throws IOException {
+    // fdg
     try {
       Path inputPath = ((FileSplit)split).getPath();
       FileSystem fs =  inputPath.getFileSystem(job);
