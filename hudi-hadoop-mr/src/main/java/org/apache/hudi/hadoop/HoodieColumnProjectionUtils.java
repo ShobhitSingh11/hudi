@@ -82,6 +82,7 @@ public class HoodieColumnProjectionUtils {
       //       gets the ID list without relying on this method. Or maybe it just works by magic.
     }
     return result;
+    // rf
   }
 
   public static String[] getReadColumnNames(Configuration conf) {
