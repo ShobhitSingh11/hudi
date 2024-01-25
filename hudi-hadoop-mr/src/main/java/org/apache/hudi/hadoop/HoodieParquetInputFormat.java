@@ -56,6 +56,7 @@ import java.util.stream.IntStream;
 @UseRecordReaderFromInputFormat
 @UseFileSplitsFromInputFormat
 public class HoodieParquetInputFormat extends HoodieParquetInputFormatBase {
+    // grvf
 
   private static final Logger LOG = LoggerFactory.getLogger(HoodieParquetInputFormat.class);
 
