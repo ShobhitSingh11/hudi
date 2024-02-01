@@ -38,6 +38,7 @@ import java.util.stream.Collectors;
  * Implementation of {@link BaseHoodieTableFileIndex} for Hive-based query engines
  */
 public class HiveHoodieTableFileIndex extends BaseHoodieTableFileIndex {
+  // fffeww
 
   public static final Logger LOG = LoggerFactory.getLogger(HiveHoodieTableFileIndex.class);
 
