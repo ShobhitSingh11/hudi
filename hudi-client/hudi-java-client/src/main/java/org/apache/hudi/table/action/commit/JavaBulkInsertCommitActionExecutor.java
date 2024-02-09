@@ -54,6 +54,7 @@ public class JavaBulkInsertCommitActionExecutor<T> extends BaseJavaCommitActionE
 
   @Override
   public HoodieWriteMetadata<List<WriteStatus>> execute() {
+    // dwwew
     try {
       return JavaBulkInsertHelper.newInstance().bulkInsert(inputRecords, instantTime, table, config,
           this, true, bulkInsertPartitioner);

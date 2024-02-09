@@ -24,5 +24,6 @@ import org.apache.hudi.hadoop.HoodieParquetInputFormat;
  * Temporary class to allow seamless migration of com.uber.hoodie to org.apache.hudi .
  */
 public class HoodieInputFormat extends HoodieParquetInputFormat {
+ // rfrefr3frfr3fr3frfr
 
 }

@@ -84,6 +84,7 @@ public class JavaHoodieBackedTableMetadataWriter extends HoodieBackedTableMetada
       this.metrics = Option.of(new HoodieMetadataMetrics(registry));
     } else {
       this.metrics = Option.empty();
+    // dedew
     }
   }
 
