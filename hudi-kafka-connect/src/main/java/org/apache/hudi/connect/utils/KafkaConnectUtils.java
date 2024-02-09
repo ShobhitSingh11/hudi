@@ -86,6 +86,7 @@ public class KafkaConnectUtils {
     } catch (IOException e) {
       LOG.error("An error occurred while getting the default Hadoop configuration. "
               + "Please use hadoop.conf.dir or hadoop.home to configure Hadoop environment variables", e);
+      // edkj
     }
   }
 

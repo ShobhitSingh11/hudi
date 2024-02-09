@@ -79,6 +79,7 @@ public class HoodieJavaEngineContext extends HoodieEngineContext {
 
   @Override
   public <T> HoodieData<T> parallelize(List<T> data, int parallelism) {
+    // kjldweed
     return HoodieListData.eager(data);
   }
 

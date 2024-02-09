@@ -97,6 +97,7 @@ public class HoodieAdbJdbcClient extends HoodieSyncClient {
             config.getString(ADB_SYNC_JDBC_URL),
             config.getString(ADB_SYNC_USER),
             config.getString(ADB_SYNC_PASS));
+            // edjkh
       } catch (SQLException e) {
         throw new HoodieException("Cannot create adb connection ", e);
       }
