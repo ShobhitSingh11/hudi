@@ -1,0 +1,6 @@
+pipeline:
+  name: CI-11556-Pub
+  identifier: CI11556Pub
+  projectIdentifier: ShobhitTest
+  orgIdentifier: default
+  tags: {}
