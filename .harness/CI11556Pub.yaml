@@ -4,3 +4,8 @@ pipeline:
   projectIdentifier: ShobhitTest
   orgIdentifier: default
   tags: {}
+  properties:
+    ci:
+      codebase:
+        connectorRef: CI11556Pub
+        build: <+input>
