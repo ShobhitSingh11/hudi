@@ -1,0 +1,14 @@
+inputSet:
+  name: shobhut-inputs
+  identifier: shobhutinputs
+  orgIdentifier: default
+  projectIdentifier: nitisha
+  pipeline:
+    identifier: CI11556
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
