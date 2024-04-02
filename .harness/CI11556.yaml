@@ -22,7 +22,7 @@ pipeline:
             type: KubernetesDirect
             spec:
               connectorRef: K8Linux
-              namespace: harness-delegate-ng
+              namespace: ci-delegate-prod-one
               automountServiceAccountToken: true
               nodeSelector: {}
               os: Linux
